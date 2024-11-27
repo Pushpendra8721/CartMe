@@ -1,0 +1,133 @@
+
+{% extends 'shop/base.html' %}
+{% block title%} AboutUs - Cart_Me{% endblock %}
+{% block body %}
+
+    <style>
+    .center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+.footer {
+    background-color: #EEEADE;
+    padding: 40px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    flex: 1;
+}
+.imm{
+  weight:20px;
+  height:20px;
+
+.footer-column h3 {
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-column p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.footer-column ul li a:hover {
+    color: #000;
+}
+.Copyright{
+  text-align:center;
+}
+.t1{
+  text-align:center;
+  color:blue;
+}
+.p2{
+  color: blue;
+}
+    </style>
+  </head>
+  <body>
+    <h1><img src="https://img.freepik.com/free-vector/shopping-cart-with-boxes-concept-illustration_114360-22402.jpg?t=st=1712817046~exp=1712820646~hmac=3cb809a3213a7417de44944829628a43e6bf602114d116ba4d9b9a1c0c8b5a15&w=1380" class="imm"alt=" ">  Cart_Me</h1>
+  <img src="https://img.freepik.com/free-vector/ecommerce-web-page-concept-illustration_114360-8204.jpg?size=626&ext=jpg&ga=GA1.1.1919893935.1699217032&semt=ais" class="center"alt=" ">
+      <div class="p2 mx-5">
+        <br>
+        <h1><i>Elevating fashion to an art form, we are the undisputed masters of the clothing industry, setting trends and defining style with every stitch</i></h1>
+        <img src="https://img.freepik.com/free-photo/shop-clothing-clothes-shop-hanger-modern-shop-boutique_1150-8886.jpg?t=st=1712818692~exp=1712822292~hmac=c62748a610375579a931d5c58d38b293214a95d10fd5478f37411fd7263406e6&w=1800"  class="center" alt="">
+      </div>
+
+    <br>
+
+    <div class="p2 mx-5">
+      <br>
+      <h1><i>Reigning supreme in the realm of home appliances, we stand as the undisputed kings, bringing innovation and quality to every household</i></h1>
+      <img src="https://img.freepik.com/free-vector/household-appliances-realistic-composition_1284-65307.jpg?t=st=1712819121~exp=1712822721~hmac=0d391bb316609f217bb40f909300533ca396c32faf3d92f33fe3591e668b7150&w=2000"  class="center" alt="">
+    </div>
+
+    <div class="t1 mx-3">
+   <h1><i>Discover endless possibilities with our curated collection</i></h1>
+         <img src="https://img.freepik.com/free-photo/view-skateboard-with-retro-memorabilia_23-2150583931.jpg?t=st=1712819547~exp=1712823147~hmac=6d8d013bb7ed0aa5166e06816f5042341143cd4247bf3ef8707fe8e479280a97&w=826"  class="center" alt="">
+          <h1><i>From fashion to electronics, find what you love and shop with confidence on our secure platform</i></h1>
+    </div>
+    
+    <br>
+    <p>
+    </p>
+    <p></p>
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>About Us</h3>
+          <b>        <p>"Welcome to Cart_Me, your ultimate destination for all things extraordinary. Embark on a journey of style, innovation, and unbeatable deals. Explore our curated selection and indulge in a shopping experience like no other.".</p></b>
+            </div>
+            <div class="footer-column">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="/shop/">Electronics</a></li>
+                    <li><a href="/shop/">Clothing</a></li>
+                    <li><a href="/shop/">Home & Garden</a></li>
+                    <li><a href="/shop/">Toys & Games</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p>Email : Cart_Me@gmail.com</p>
+                <p>Phone: 6261-230-543</p>
+                <p>For Ant Query: <a href="/shop/contact/">CONTACT_NOW</a></p>
+
+                <div class="Copyright">
+                    <h5>  Copyright © 2024 Cart_Me. All rights reserved. All product names, logos, and brands are property of their respective owners  </h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% endblock %}
